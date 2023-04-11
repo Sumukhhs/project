@@ -1,145 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Personal Portfolio Webpage</title>
-</head>
-
-<body>
-  <!-- PAGE ABOUT -->
-  <header id="about">
-    <nav id="navbar">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="welcome-section" class="container">
-      <h1 id="title">I am Afif Ahsan</h1>
-      <p class="lead"><em>a full-stack web developer</em></p>
-    </div>
-  </header>
-
-  <!-- PROJECT SECTION -->
-  <section id="projects">
-    <div class="project-tile">
-      <h1 id="caption">"These are some of my projects"</h1><br>
-      <div id="bottom-line"></div>
-      <div class="projects">
-        <div class="box">
-          <a target="_blank" href="https://freecodecamp-solutions.github.io/Build-A-Tribute-Page/">
-            <img src="img/project-1.JPG" alt="project-img" class="project-img">
-            <p>
-              <span class="code">&lt;</span>
-              Tribute Page
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div class="box">
-          <a target="_blank" href="https://freecodecamp-solutions.github.io/Personal-Portfolio-Webpage/" alt="project-img" class="project-img">
-            <img src="img/project-2.JPG" alt="project-img" class="project-img">
-            <p>
-              <span class="code">&lt;</span>
-              Personal Portfolio
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div class="box">
-          <a target="_blank" href="https://freecodecamp-solutions.github.io/Technical-Documentation-Page/">
-            <img src="img/project-3.JPG" alt="project-img" class="project-img">
-            <p>
-              <span class="code">&lt;</span>
-              Documentation Page
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div target="_blank" class="box">
-          <a href="https://freecodecamp-solutions.github.io/Product-Landing-Page/">
-            <img src="img/project-4.JPG" alt="project-img" class="project-img">
-            <p>
-              <span class="code">&lt;</span>
-              Landing Page
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div target="_blank" class="box">
-          <a href="https://sites.google.com/view/dev-afif/">
-            <img src="img/project-5.JPG" alt="project-img" class="project-img">
-            <p>
-              <span class="code">&lt;</span>
-              Personal Site
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div target="_blank" class="box">
-          <a href="https://freecodecamp-solutions.github.io/Build-a-Survey-Form/">
-            <img src="img/project-6.JPG" alt="project-img" class="project-img">
-            <p>
-              <span class="code">&lt;</span>
-              Survey Form
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-      </div>
-      <a href="https://github.com/FreeCodeCamp-Solutions" class="btn">Show More</a>
-    </div>
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <div class="container">
-      <h1>Let's work together...</h1>
-      <p>Need help with your project? Just ask!</p>
-      <div class="social">
-        <div>
-          <a target="_blank" href="https://www.facebook.com/secure.afif">
-            <i class="fab fa-facebook fa-1x"></i>
-            Facebook
-          </a>
-          <a id="profile-link" target="_blank" href="https://www.github.com/afifone">
-            <i class="fab fa-github fa-1x"></i>
-            Github
-          </a>
-          <a target="_blank" href="https://twitter.com/helloafif">
-            <i class="fab fa-twitter fa-1x"></i>
-            Twitter
-          </a>
-          <a href="#">
-            <i class="fas fa-envelope-open-text fa-1x"></i>
-            Mail
-          </a>
-          <a href="#">
-            <i class="fas fa-phone fa-1x"></i>
-            Call Me
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER SECTION -->
-  <footer id="main-footer">
-    <div class="container">
-      <p>&copy; Copyright Free</p>
-      <p id="creator">This site recreated by <a href="https://github.com/FreeCodeCamp-Solutions/">FreeCodeCamp-Solutions</a></p>
-    </div>
-  </footer>
-</body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>Neil Ricci Personal Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-control" content="public">
+        <link rel="icon" href="images/favicon.ico"  type="image/png"> 
+        <meta name="Description" content="Portfolio page for Neil Ricci, front end web developer, specializing in JavaScript technologies">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <a href="#welcome-section">Welcome</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="welcome-section">
+                <div id="welcome-text">
+                    <h1>👋 Hi, my name is Neil</h1>
+                    <p id="self-description">I am a front-end developer 💻. I combine HTML, CSS, and JavaScript to build simple yet beautiful websites that are focused 🎯 on the end user. I also am a roller coaster🎢 and theme park enthusiast. Let's collaborate!✌️</p>
+                </div>
+            </section>
+            <section>
+                <h2>Projects</h2>
+                <div id="projects">
+                    <div class="project-tile">
+                        <img alt="one-hundred, written in red, underlined twice for emphasis" class="project-icon" src="images/projects/100DaysOfCode.png">
+                        <h3>100 Days of Code</h3>
+                        <p class="project-description">Three Main Rules. Code minimum an hour every day for the next 100 days. Tweet your progress every day with the #100DaysOfCode hashtag. Update the Log with the day’s progress.</p>
+                        <a rel="noopener" href="https://iccir919.github.io/100-days-of-code/log.html" role="button">Read my 100 Days of Code log &raquo;</a>
+                    </div>
+                    <div class="project-tile">
+                        <img alt="freeCodeCamp official logo" class="project-icon" src="images/projects/freeCodeCamp.jpg">
+                        <h3>freeCodeCamp</h3>
+                        <p class="project-description">Obtaining the following certificiations: Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance</p>
+                        <a rel="noopener" href="https://www.freecodecamp.org/iccir919" role="button">View my freeCodeCamp profile &raquo;</a>
+                    </div>
+                    <div class="project-tile">
+                        <img alt="pulse rate line graph" class="project-icon" src="images/projects/pulseWatch.png">
+                        <h3>Pulse Watch</h3>
+                        <p class="project-description">Fitbit users can easily choose to visualize or download export into a .csv file their heart rate data for any time period.</p>
+                        <a rel="noopener" href="https://iccir919.github.io/pulseWatch/public/index.html" role="button">Check out Pulse Watch &raquo;</a>
+                    </div>
+                </div>
+            </section>
+            <section id="connect">
+                <h2>Connect</h2>
+                <ul class="social-links">
+                    <li>
+                        <a rel="noopener" id="profile-link" href="https://github.com/iccir919" target="_blank">
+                            <img alt="Github icon" class="social-icon" src="images/social_icons/Github.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a rel="noopener" href="https://www.linkedin.com/in/neil-ricci/" target="_blank">
+                            <img alt="LinkedIn icon" class="social-icon" src="images/social_icons/LinkedIn.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a rel="noopener" href="https://twitter.com/realNeilVR" target="_blank">
+                            <img alt="Twitter icon" class="social-icon" src="images/social_icons/Twitter.png">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
 </html>
